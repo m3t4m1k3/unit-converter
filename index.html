@@ -4,11 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link   rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="index.css">
     <title>Unit Converter</title>
 </head>
 <body>
-    <h1>index.html</h1>
+    <div class="card">
+        <div class="card-top">
+            <h1>Metric/Imperial unit conversion</h1>
+            <input type="text" id="input-el" placeholder="0">
+        </div>
+        <div class="card-bottom">
+            <h2>Length (Meter/Feet)</h2>
+            <p id="length-el">Enter value above to show conversion</p>
+            <h2>Volume (Meters/Gallons)</h2>
+            <p id="volume-el">Enter value above to show conversion</p>
+            <h2>Mass (Kilograms/Pounds)</h2>
+            <p id="mass-el">Enter value above to show conversion</p>
+        </div>
+    </div>
+    
     <script src="index.js"></script>
 </body>
 </html>
