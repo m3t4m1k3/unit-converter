@@ -22,3 +22,4 @@ The design will be as per the the image below specified by the designer. See the
 ![alt](./dark-active.png)
 
 ## Author
+Michael McGee [@m3t4m1k3](https://github.com/m3t4m1k3)
