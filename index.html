@@ -4,25 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
     <title>Unit Converter</title>
 </head>
 <body>
     <article class="card">
         <section class="card-top">
             <h1>Metric/Imperial unit conversion</h1>
-            <input type="text" id="input-el" placeholder="0">
+            <input type="text" id="input-el" onkeyup="convertValues()">
         </section>
         <section class="card-bottom">
-            <h2>Length (Meter/Feet)</h2>
-            <p id="length-el">Enter value above to show conversion</p>
-            <h2>Volume (Meters/Gallons)</h2>
-            <p id="volume-el">Enter value above to show conversion</p>
-            <h2>Mass (Kilograms/Pounds)</h2>
-            <p id="mass-el">Enter value above to show conversion</p>
+            <div>
+                <h2>Length (Meter/Feet)</h2>
+                <p id="length-el" class="result">Please enter a value above.</p>
+            </div>
+            <div>
+                <h2>Volume (Liters/Gallons)</h2>
+                <p id="volume-el" class="result">Please enter a value above.</p>
+            </div>
+            <div>
+                <h2>Mass (Kilograms/Pounds)</h2>
+                <p id="mass-el" class="result">Please enter a value above.</p>
+            </div>
         </section>
     </article>
-    
+
     <script src="index.js"></script>
 </body>
 </html>
