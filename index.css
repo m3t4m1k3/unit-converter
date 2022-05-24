@@ -1,4 +1,68 @@
-html, body {
-    margin: 0;
-    padding: 0;
+body {
+    background: #333;
+    font-family: 'Inter', sans-serif;
+    color: #FFF;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h2 {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+p {
+    color: #D2D2D2;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+#input-el, #input-el:focus {
+    width: 100%;
+    color: inherit;
+    text-align: inherit;
+    font-size: 100px;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+.card {
+    width: 550px;
+    margin: 100px auto 0 auto;
+    text-align: center;
+}
+
+.card-top {
+    font-weight: 800;
+    height: 260px;
+    padding-top: 55px;
+    background-image: linear-gradient(
+        45deg,
+        hsl(331deg 96% 60%) 0%,
+        hsl(327deg 92% 59%) 8%,
+        hsl(323deg 87% 57%) 17%,
+        hsl(319deg 82% 56%) 25%,
+        hsl(314deg 75% 55%) 33%,
+        hsl(308deg 68% 54%) 42%,
+        hsl(301deg 60% 52%) 50%,
+        hsl(292deg 65% 55%) 58%,
+        hsl(283deg 71% 58%) 67%,
+        hsl(274deg 77% 61%) 75%,
+        hsl(263deg 84% 63%) 83%,
+        hsl(252deg 91% 66%) 92%,
+        hsl(238deg 99% 67%) 100%
+    );
+}
+
+.card-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 25px;
+    height: 290px;
+    background-color: #1F2937;
 }
