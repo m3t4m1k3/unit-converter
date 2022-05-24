@@ -33,10 +33,21 @@ const convertValues = () => {
 }
 
 const createResultString = (imperialUnitName, metricUnitName, conversionRatio, inputValue) => {
-    const imperialResult = (inputValue / conversionRatio).toFixed(3);
-    const metricResult = (inputValue * conversionRatio).toFixed(3);
-    // TODO: #1 Fix the plural issue
-    return `${inputValue} ${metricUnitName} = ${imperialResult} ${imperialUnitName} | ${inputValue} ${imperialUnitName} = ${metricResult} ${metricUnitName}`;
+    const imperialResult = pluralize((inputValue / conversionRatio).toFixed(3), imperialUnitName);
+    const metricResult = pluralize((inputValue * conversionRatio).toFixed(3), metricUnitName);
+
+    return `${pluralize(inputValue, metricUnitName)} = ${imperialResult} | ${pluralize(inputValue, imperialUnitName)} = ${metricResult}`;
+}
+
+// TODO: refactor this in the future to make adding additional units easier
+const pluralize = (value, unitName) => {
+    if (value == 1 && unitName == "feet") {
+        unitName = "foot";
+    } else if(value != 1 && unitName != "feet") {
+        unitName += "s";
+    }
+
+    return `${value} ${unitName}`;
 }
 
 const setAllResultsTo = (str) => {
