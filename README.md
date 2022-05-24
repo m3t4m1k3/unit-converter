@@ -14,6 +14,8 @@ Scrimba - Module 3.2 - Solo Project - Unit Converter
 - Add an input for the user to change the number and automatically recalculate values when it changes
 ## Additional Features Added
 - Add pluralization to the output unit strings
+## TODO
+- [ ] Add comma seperation for large numbers to make them more readable.
 ## Design
 The design will be as per the the image below specified by the designer. See the complete [Figma project here](https://www.figma.com/file/SGyeTJrpeBsVdtwjvTn2po/Unit-Conversion-(Copy)?node-id=0%3A1).
 
