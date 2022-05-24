@@ -12,6 +12,8 @@ Scrimba - Module 3.2 - Solo Project - Unit Converter
 - Check out this [CSS gradient generator](https://www.joshwcomeau.com/gradient-generator/)
 ## Stretch Requirements
 - Add an input for the user to change the number and automatically recalculate values when it changes
+## Additional Features Added
+- Add pluralization to the output unit strings
 ## Design
 The design will be as per the the image below specified by the designer. See the complete [Figma project here](https://www.figma.com/file/SGyeTJrpeBsVdtwjvTn2po/Unit-Conversion-(Copy)?node-id=0%3A1).
 
