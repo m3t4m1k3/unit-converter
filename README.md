@@ -15,6 +15,7 @@ View the [live site here](https://m3t4m1k3.github.io/unit-converter/)
 ## Stretch Requirements
 - [x] Add an input for the user to change the number and automatically recalculate values when it changes
 ## Additional Personal Stretch Requirements
+- [x] Add user input validation to ensure user is only inputing number values
 - [x] Add pluralization to the output unit strings
 ## TODO
 - [ ] Add comma seperation for large numbers to make them more readable.
