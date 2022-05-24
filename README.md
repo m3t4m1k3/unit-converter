@@ -6,14 +6,14 @@ Scrimba - Module 3.2 - Solo Project - Unit Converter
 - Implement a basic component based on a given list of specifications and design file.
 
 ## Core Requirements
-- Save number to a variable in code
-- When app loads, do calculations and display the results
-- Round numbers to 3 decimal places
-- Check out this [CSS gradient generator](https://www.joshwcomeau.com/gradient-generator/)
+- [x] Save number to a variable in code
+- [x] When app loads, do calculations and display the results
+- [x] Round numbers to 3 decimal places
+- [x] Check out this [CSS gradient generator](https://www.joshwcomeau.com/gradient-generator/)
 ## Stretch Requirements
-- Add an input for the user to change the number and automatically recalculate values when it changes
-## Additional Features Added
-- Add pluralization to the output unit strings
+- [x] Add an input for the user to change the number and automatically recalculate values when it changes
+## Additional Personal Stretch Requirements
+- [x] Add pluralization to the output unit strings
 ## TODO
 - [ ] Add comma seperation for large numbers to make them more readable.
 ## Design
