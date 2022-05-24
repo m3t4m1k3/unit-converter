@@ -2,6 +2,8 @@
 
 Scrimba - Module 3.2 - Solo Project - Unit Converter
 
+View the [live site here](https://m3t4m1k3.github.io/unit-converter/)
+
 ## Learning Goals
 - Implement a basic component based on a given list of specifications and design file.
 
